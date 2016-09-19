@@ -1,6 +1,6 @@
 {
   "name": "pull-filereader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "read an HTML5 File object as a pull stream",
   "main": "index.js",
   "scripts": {
