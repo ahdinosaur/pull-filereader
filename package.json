@@ -1,0 +1,33 @@
+{
+  "name": "pull-filereader",
+  "version": "0.0.0",
+  "description": "read an HTML5 File object as a pull stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "bankai start --entry test"
+  },
+  "browserify": {
+    "transform": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/pull-filereader.git"
+  },
+  "keywords": [],
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/pull-filereader/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/pull-filereader#readme",
+  "devDependencies": {
+    "bankai": "^3.3.0",
+    "drag-and-drop-files": "0.0.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "defined": "^1.0.0",
+    "pull-abortable": "^4.1.0",
+    "pull-stream": "^3.4.5"
+  }
+}
