@@ -4,6 +4,7 @@
   "description": "read an HTML5 File object as a pull stream",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "test": "bankai start --entry test"
   },
   "browserify": {
@@ -22,7 +23,7 @@
   "homepage": "https://github.com/ahdinosaur/pull-filereader#readme",
   "devDependencies": {
     "bankai": "^3.3.0",
-    "drag-and-drop-files": "0.0.1",
+    "standard": "^8.1.0",
     "tape": "^4.6.0"
   },
   "dependencies": {

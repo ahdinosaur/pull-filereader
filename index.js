@@ -1,4 +1,4 @@
-/* global FileReader */
+/* global FileReader, ArrayBuffer */
 var defined = require('defined')
 var pull = require('pull-stream/pull')
 var Abortable = require('pull-abortable')
@@ -31,10 +31,7 @@ module.exports = function (file, options) {
   var abortable = Abortable()
   fileReader.addEventListener('abort', handleError)
 
-  return pull(
-    read,
-    abortable    
-  )
+  return pull(read, abortable)
 
   function handleError (err) {
     abortable.abort(err)

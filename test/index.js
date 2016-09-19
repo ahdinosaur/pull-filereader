@@ -1,6 +1,5 @@
 var test = require('tape')
 var pull = require('pull-stream')
-var drop = require('drag-and-drop-files')
 var Buffer = require('buffer').Buffer
 var pullFileReader = require('../')
 
